@@ -54,7 +54,7 @@ Software on HPC can be load as module
 ***Access***
 | Method | Code/Link | Note |
 | ------| ----- | -----|
-| Login | `ssh user.name@Atlas-login.hpc.msstate.edu` | |
+| Login | `ssh user.name@Atlas-login.hpc.msstate.edu` | replace the user.name with your username in Scinet |
 | DTN Login | `ssh user.name@Atlas-dtn.hpc.msstate.edu` | DTN refer to data transfer node |
 | GUI | [Open Ondemand](https://atlas-ood.hpc.msstate.edu/) | [login tutorial](https://scinet.usda.gov/guides/access/login#accessing-gui-based-services) and [Usage](https://www.hpc.msstate.edu/computing/atlas/ood.php)|<br />
 <br />
