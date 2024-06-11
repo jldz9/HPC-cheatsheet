@@ -13,9 +13,9 @@ This tutorial also assumes you have access to Scinet and have initialized the lo
 ***Access***
 | Method | Code/Link | Note |
 | ------| ----- | -----|
-| Login | `ssh user.name@ceres.scinet.usda.gov` | replace the `user.name` with your username in Scinet |
+| Login | `ssh user.name@ceres.scinet.usda.gov` | Replace the `user.name` with your username in Scinet |
 | DTN Login | `ssh user.name@ceres-dtn.scinet.usda.gov` | DTN refer to data transfer node |
-| GUI | [Open Ondemand](http://ceres-ood.scinet.usda.gov/) | [login tutorial](https://scinet.usda.gov/guides/access/login#accessing-gui-based-services) and [Usage](https://scinet.usda.gov/guides/software/open-ondemand)|<br />
+| GUI | [Open Ondemand](http://ceres-ood.scinet.usda.gov/) | [Login tutorial](https://scinet.usda.gov/guides/access/login#accessing-gui-based-services) and [Usage](https://scinet.usda.gov/guides/software/open-ondemand)|<br />
 <br />
 
 ***Data Transfer***
@@ -54,7 +54,7 @@ Software on HPC can be load as module
 ***Access***
 | Method | Code/Link | Note |
 | ------| ----- | -----|
-| Login | `ssh user.name@Atlas-login.hpc.msstate.edu` | replace the user.name with your username in Scinet |
+| Login | `ssh user.name@Atlas-login.hpc.msstate.edu` | Replace the `user.name` with your username in Scinet |
 | DTN Login | `ssh user.name@Atlas-dtn.hpc.msstate.edu` | DTN refer to data transfer node |
 | GUI | [Open Ondemand](https://atlas-ood.hpc.msstate.edu/) | [login tutorial](https://scinet.usda.gov/guides/access/login#accessing-gui-based-services) and [Usage](https://www.hpc.msstate.edu/computing/atlas/ood.php)|<br />
 <br />
@@ -73,7 +73,7 @@ Do not run computational intensive job on login node, you need to allocate a com
 | Method | Code/Link | Note |
 | ------| ----- | -----|
 | Allocate resource | `salloc -n 8 -N 1 --mem=128G -p=short -t 01:00:00 -A your_user_group` | Atlas does not excute interactive shell after use `salloc` and requires user group input, the user group typically is your project name, check Miscellaneous section in the cheat sheet for how to get your user group |
-| Interactive | `srun salloc -n 8 -N 1 --mem=128G -p=short -t 01:00:00 -A your_user_group --pty bash` | get a shell on a compute job | 
+| Interactive | `srun salloc -n 8 -N 1 --mem=128G -p=short -t 01:00:00 -A your_user_group --pty bash` | Get a shell on a compute job | 
 | job run | `srun salloc -n 8 -N 1 --mem=128G -p=short -t 01:00:00 -A your_user_group your_command` | Similiar with `salloc` but you can run your command use `srun` and specific the resource you need |
 | Batch run | [Batch script generator]([https://scinet.usda.gov/support/ceres-job-script](https://www.hpc.msstate.edu/computing/atlas/#Atlas%20Job%20Script%20Generator:~:text=Atlas%20Job%20Script%20Generator)) | Generally like to combine multiple `srun` together , check [Tutorial](https://www.hpc.msstate.edu/computing/atlas/#Atlas%20Job%20Script%20Generator:~:text=SBATCH%20Submits%20a%20job%20runscript%20for%20later%20execution%20(batch%20mode)) for more detail|
 | Check job | `squeue` | |
@@ -94,7 +94,7 @@ Software on HPC can be load as module
 -------
 | Method | Code/Link | Note |
 | ------| ----- | -----|
-| Get user group | `sacctmgr show associations where user=user.name format=account%20,qos%50` | replace the `user.name` with your username in Scinet | 
+| Get user group | `sacctmgr show associations where user=user.name format=account%20,qos%50` | Replace the `user.name` with your username in Scinet | 
 | Project folder | `/project/your_user_group/` | Normally 1TB limitation |
 | 90days folder | `/90daydata/your_user_group/` | Unlimited, but will be removed every 90 days |
 | Temporary folder | `$TMPDIR` | 1.5TB during executing of job | 
