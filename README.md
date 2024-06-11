@@ -1,4 +1,4 @@
-# Scinet Cheat Sheet
+# SCINet Cheat Sheet
 SCINet is the USDA-ARS’s initiative for scientific computing.
 
 The high-performance computing (HPC) resources of Scinet currently include ***Ceres*** and ***Altas***
