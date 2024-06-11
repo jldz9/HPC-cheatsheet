@@ -3,9 +3,9 @@ SCINet is the USDA-ARS’s initiative for scientific computing.
 
 The high-performance computing (HPC) resources of Scinet currently include ***Ceres*** and ***Altas***
 
-This tutorial is meant to let user quick start on HPC, for detailed instruction please refer to [Ceres](https://scinet.usda.gov/guides/start) and [Atlas](https://www.hpc.msstate.edu/computing/atlas/)
+This tutorial is meant to let users quickly start on HPC. For detailed instruction please refer to [Ceres](https://scinet.usda.gov/guides/start) and [Atlas](https://www.hpc.msstate.edu/computing/atlas/)
 
-This tutorial also assume you have access to Scinet and alreay initilized the login credentials, if not, check [Tutorial](https://scinet.usda.gov/guides/access/login)
+This tutorial also assumes you have access to Scinet and have initialized the login credentials; if not, check [Tutorial](https://scinet.usda.gov/guides/access/login)
 
  ### Ceres
 --------------------
