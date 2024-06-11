@@ -101,5 +101,5 @@ Software on HPC can be load as module
 | Home | `/home/user.name` | Limit to 15GB | 
 | Long term backup | `rsync -avz --no-p --no-g path/to/dir user.name@nal-dtn.scinet.usda.gov:/LTS/project/your_project_name/` | Only backup import results, don't put your random data in it | 
 | Cloud Storage | check [Rclone](https://rclone.org/) | Rclone was pre-installed on Scinet check `rclone --help` |
-
+| Remove ssh key | `ssh-keygen -R your-hostname` | Sometime they ask you to do that | 
 
