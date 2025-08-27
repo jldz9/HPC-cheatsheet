@@ -32,7 +32,11 @@ theme:
 
 nav: 
   - Home: index.md
-  - Cheatsheet: cheatsheet/cheatsheet.md
+  - Cheatsheet: 
+    - Cheatsheets: cheatsheet/main.md
+    - Example Batch Script: cheatsheet/batch_script.md
+  - Advanced:
+    - VSCode: advanced/vscode.md
   - About: about.md
 
 extra:
