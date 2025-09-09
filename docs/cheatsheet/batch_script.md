@@ -13,7 +13,7 @@ You can copy the batch script below to use `sbatch run.sh` to submit
 #SBATCH --output=codetunnel_%j.out
 #SBATCH --error=codetunnel_%j.err
 #SBATCH --time=1-00:00:00
-#SBTACH --partition=all
+#SBATCH --partition=all
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:1 
@@ -44,7 +44,7 @@ echo "Job finished"
 #SBATCH --output=codetunnel_%j.out
 #SBATCH --error=codetunnel_%j.err
 #SBATCH --time=1-00:00:00
-#SBTACH --partition=day-long-gpu
+#SBATCH --partition=day-long-gpu
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:1 
