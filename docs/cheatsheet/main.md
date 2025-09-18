@@ -171,9 +171,9 @@ This page will list cheat sheet for different HPC groups, you may use catalogs t
 
 | Method | Code/Link | Note |
 | ------| ----- | -----|
-| Windows | `scp -r path\to\source  user.name@cashew.engr.colostate.edu:/path/to/dest` | Use " \ " on windows path, if you are copying files instead of directory, remove `-r` |
-| Linux | `rsync -avz --no-p --no-g /path/to/source user.name@cashew.engr.colostate.edu:/path/to/dest` | |
-| MacOS | `rsync -avz --no-p --no-g /path/to/source user.name@cashew.engr.colostate.edu:/path/to/dest` | Use `--iconv utf-8-mac` if run into issue [source](https://odd.blog/2020/10/06/rsync-between-mac-and-linux/) |
+| Windows | `scp -r path\to\source  user.name@riviera.colostate.edu:/path/to/dest` | Use " \ " on windows path, if you are copying files instead of directory, remove `-r` |
+| Linux | `rsync -avz --no-p --no-g /path/to/source user.name@riviera.colostate.edu:/path/to/dest` | |
+| MacOS | `rsync -avz --no-p --no-g /path/to/source user.name@riviera.colostate.edu:/path/to/dest` | Use `--iconv utf-8-mac` if run into issue [source](https://odd.blog/2020/10/06/rsync-between-mac-and-linux/) |
 | GUI | Riviera does not support web GUI for data transfer, |User could use winSCP instead |
 
 
